@@ -1,0 +1,17 @@
+<div class="row">
+	<div class="container">
+		<div class="logo">
+			<img src="../assets/img/APLogo.png" alt="Argentina Programa" id="logoAP">
+		</div>
+		<div class="redes">
+			<div>
+				<a href=""><img src="../assets/img/linkedin.png" alt="LinkedIn" id="linkedin"></a>
+				<a href=""><img src="../assets/img/github.png" alt="GitHub" id="github"></a>
+				<a href=""><img src="../assets/img/facebook.png" alt="Facebook" id="facebook"></a>
+				<button class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+				<button class="btn btn-outline-light" (click)="onLogout()" *ngIf="isLogged">Cerrar sesión</button>
+			</div>
+		</div>
+	</div>
+</div>
+

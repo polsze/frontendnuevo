@@ -1,0 +1,19 @@
+<div style="padding: 20px;">
+	<div class="col-lg-2">
+	<button class="btn btn-danger" type="button" routerLink="/editaracercade/1" *ngIf="isLogged">
+		Editar
+	</button>
+</div>
+	<div>
+		<img src={{persona.img}} alt="Pablo Barrios" class="img-fluid" id="fotoPerfil">
+	</div>
+	<div>
+		<p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
+	</div>
+	<div>
+		<span>
+			<h2>Acerca de mí</h2>
+			<p>{{persona.descripcion}}</p>
+		</span>
+	</div>
+</div>
