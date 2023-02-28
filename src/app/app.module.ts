@@ -15,7 +15,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EducacionComponent } from './components/educacion/educacion.component';
 
 import { HysComponent } from './components/hys/hys.component';
-import { ProyectosComponent } from './components/proyectos/proyectos.component';
+
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
@@ -27,7 +27,7 @@ import { NeweducacionComponent } from './components/educacion/neweducacion.compo
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
-import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+
 
 
 
@@ -41,7 +41,6 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     ExperienciaComponent,
     EducacionComponent,
     HysComponent,
-    ProyectosComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
@@ -50,8 +49,7 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     NeweducacionComponent,
     EditEducacionComponent,
     EditSkillComponent,
-    NewSkillComponent,
-    EditAcercaDeComponent
+    NewSkillComponent
    
    
   ],

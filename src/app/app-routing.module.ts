@@ -8,7 +8,7 @@ import { NeweducacionComponent } from 'src/app/components/educacion/neweducacion
 import { EditEducacionComponent } from 'src/app/components/educacion/edit-educacion.component';
 import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
-import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+
 
 
 
@@ -20,8 +20,8 @@ const routes: Routes = [
     {path:'nuevaedu', component: NeweducacionComponent},
     {path:'editedu/:id', component: EditEducacionComponent},
     {path: 'newskill', component: NewSkillComponent},
-    {path: 'editskill/:id', component: EditSkillComponent},
-    {path: 'editaracercade/:id', component: EditAcercaDeComponent}
+    {path: 'editskill/:id', component: EditSkillComponent}
+  
     
 
   ];
